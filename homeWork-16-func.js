@@ -36,7 +36,7 @@ function func4 (numberDay) {
         console.log('Ошибка');
     }
 }
-// console.log(func4(1));
+// func4(1);
 
 //5
 function func5 (a, b) {
@@ -89,7 +89,7 @@ for (i = 0; i <= mas9.length; i++) {
 // console.log(masNew9);
 
 
-// //10
+//10
 function getDigitsSum (a) {
     a = Array.from(String(a)).map(i=>Number(i));  //преобразуем число в строку, затем в массив
     let s = 0;  //переменная для вывода суммы цифр
@@ -98,7 +98,7 @@ function getDigitsSum (a) {
     }
     return s;    
 }
-// console.log(getDigitsSum(92));
+// console.log(getDigitsSum(119999686867898111));
 
 //11
 // for (let i = 1; i <= 2020; i++) {
